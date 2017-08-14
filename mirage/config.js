@@ -1,5 +1,5 @@
 export default function() {
-  this.namespace = '/super-rentals/api';
+  this.namespace = '/api';
 
   let rentals = [
     {
