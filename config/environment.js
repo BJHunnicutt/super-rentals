@@ -3,9 +3,9 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'super-rentals',
+    modulePrefix: '/',
     environment,
-    rootURL: 'https://bjhunnicutt.github.io/',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
