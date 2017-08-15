@@ -44,11 +44,15 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    // Added with ember install ember-cli-github-pages
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/super-rentals/';
+    
     // use mirage in production too since the app will break
     // if there is no API for Ember Data
     ENV['ember-cli-mirage'] = {
       enabled: true
-    }
+    };
   }
 
   return ENV;
